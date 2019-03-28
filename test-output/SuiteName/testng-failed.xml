@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="LeadTest(failed)">
+    <classes>
+      <class name="com.selenium.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="deleteLeadAccountTest"/>
+        </methods>
+      </class> <!-- com.selenium.zoho.project.testcases.LeadTest -->
+    </classes>
+  </test> <!-- LeadTest(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

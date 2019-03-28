@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MindMatrix]">
+  <test name="TestA(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="permissionCheck"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.testcases.LoginTest -->
+    </classes>
+  </test> <!-- TestA(failed) -->
+</suite> <!-- Failed suite [MindMatrix] -->

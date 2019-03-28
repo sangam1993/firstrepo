@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-19T09:29:20Z" name="Default suite" finished-at="2019-03-19T09:29:48Z" duration-ms="28432">
+    <groups>
+    </groups>
+    <test started-at="2019-03-19T09:29:20Z" name="Default test" finished-at="2019-03-19T09:29:48Z" duration-ms="28432">
+      <class name="com.selenium.mindmatrix.project.testcases.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.selenium.mindmatrix.project.testcases.LoginTest@5b799640]" started-at="2019-03-19T14:59:20Z" name="init" finished-at="2019-03-19T14:59:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="doLoginTest(java.util.Hashtable)[pri:0, instance:com.selenium.mindmatrix.project.testcases.LoginTest@5b799640]" started-at="2019-03-19T14:59:20Z" name="doLoginTest" data-provider="getData" finished-at="2019-03-19T14:59:47Z" duration-ms="26822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=rohit26580@rediffmail.com, ExpectedResult=Y, Password=rohit123, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.selenium.mindmatrix.project.testcases.LoginTest@5b799640]" started-at="2019-03-19T14:59:47Z" name="quit" finished-at="2019-03-19T14:59:48Z" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.selenium.mindmatrix.project.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

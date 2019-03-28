@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.testcases.ForgotPasswordPageBeforeLogin">
+        <methods>
+          <include name="init"/>
+          <include name="testForgotPasswordPageBeforeLogin" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.testcases.ForgotPasswordPageBeforeLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

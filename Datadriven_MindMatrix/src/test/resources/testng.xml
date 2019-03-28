@@ -1,0 +1,17 @@
+<suite name="MindMatrix">
+	
+	
+	<test name="TestA" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.mindmatrix.project.testcases.LoginTest" />
+		</classes>
+	</test>
+	
+		<test name="TestB" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.mindmatrix.project.testcases.PermissionCheck" />
+		</classes>
+	</test>
+	
+</suite>
+
